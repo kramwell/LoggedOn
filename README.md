@@ -1,7 +1,8 @@
 # LoggedOn
  12/JAN/2018 - Script will check who is logged on to every computer in Active Directory and output the usernames, os version and user logon time.
 
-# Sample ACTIVEUSERS.csv output
+Sample ACTIVEUSERS.csv output
+
 	ComputerName,Domain,Username,LogonTime,OSType
 	KWNB0120,KWTECH,frank,26/01/2018 13:58,Microsoft Windows 7 Enterprise 
 	KWNB0130,KWTECH,brian,26/01/2018 20:06,Microsoft Windows 7 Enterprise 
@@ -14,7 +15,8 @@
 	KWNB0156,KWTECH,patrick,26/01/2018 16:11,Microsoft Windows 7 Enterprise 
 	KWNB0201,KWTECH,paul,26/01/2018 15:44,Microsoft Windows 7 Enterprise 
 
- # Sample history/%timestamp%.txt output
+Sample history/%timestamp%.txt output
+
 	**********************
 	Windows PowerShell Transcript Start
 	Start time: 20180126211223
